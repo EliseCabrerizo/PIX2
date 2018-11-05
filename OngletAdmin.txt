@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Léo News</title>
+	<link rel="stylesheet" href="style.css">
+	  <style type="text/css">
+  <!--
+    a {
+      text-decoration: none;
+    }
+  //-->
+  </style
+</head>
+<body>
+	<div id="header">
+		<a href="LeoNews.html"><div id="titre">Léo News</div></a>
+		<div id="menu">
+		    <a href="http://www.esilv.fr/"><div id="onglet">Le Pôle</div></a>     
+			<div id="onglet">Administration </div>
+			<a href="OngletEvenement.html"><div id="onglet">Evènements</div></a>
+			<div id="onglet">Entreprises</div>
+			<a href="http://labs.esilv.fr/leodata/"><div id="onglet">Annales</div></a>
+			<div id="onglet">Sport</div>
+			<div id="onglet">Actualités</div>
+			<a href="OngletAssociation.html"><div id="onglet">Associations</div></a>
+			<a href="OngletForum.html"><div id="onglet">Forum</div></a>
+		</div>
+		
+		<fore>
+                <div id ="ID"><input type="text" placeholder="Identifiant" size ="40" maxlength="10"/><br/>
+                <input type="passeword" placeholder="Mot de passe"/><br/>
+                <input type="submit" value="Connexion"/>
+                </div>
+                </fore>
+	</div>
+	
+	<div id="sideMenu">
+		<a href="#LIEN"><div id="item">
+			<img src="img/recherche.png"/> Rechercher
+		</div></a>
+		<a href="#LIEN"><div id="item">
+			<img src="img/follow.png"/> Suivre
+		</div></a>
+		<a href="#LIEN"><div id="item">
+			<img src="img/absence.png"/> Absence
+		</div></a>
+	</div>
+	
+	<div id= "lastNews" >
+		<div id = "news">
+			<div id="image"><img src="img/pole.jpg"/></div>
+			<div id="title">Actualité 1</div> 
+			<div id="subtitle">31 décembre 2016</div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum nisl diam, in accumsan lacus viverra a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquam lorem orci, quis placerat orci tempor quis. Aenean id gravida libero. Donec vestibulum, risus sit amet malesuada pulvinar, tellus sem viverra purus, non fermentum metus
+		
+			<a href="OngletType.html"><div id="readmore">Lire la suite...</div></a>
+		</div>
+		<div id = "news">
+			<div id="image"><img src="img/pole.jpg"/></div>
+			<div id="title">Actualité 2</div> 
+			<div id="subtitle">31 décembre 2016</div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum nisl diam, in accumsan lacus viverra a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquam lorem orci, quis placerat orci tempor quis. Aenean id gravida libero. Donec vestibulum, risus sit amet malesuada pulvinar, tellus sem viverra purus, non fermentum metus
+			<div id="readmore">Lire la suite...</div>
+		</div><div id = "news">
+			<div id="image"><img src="img/pole.jpg"/></div>
+			<div id="title">Actualité 3</div> 
+			<div id="subtitle">31 décembre 2016</div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum nisl diam, in accumsan lacus viverra a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquam lorem orci, quis placerat orci tempor quis. Aenean id gravida libero. Donec vestibulum, risus sit amet malesuada pulvinar, tellus sem viverra purus, non fermentum metus
+			<div id="readmore">Lire la suite...</div>
+		</div><div id = "news">
+			<div id="image"><img src="img/pole.jpg"/></div>
+			<div id="title">Actualité 4</div> 
+			<div id="subtitle">31 décembre 2016</div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum nisl diam, in accumsan lacus viverra a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquam lorem orci, quis placerat orci tempor quis. Aenean id gravida libero. Donec vestibulum, risus sit amet malesuada pulvinar, tellus sem viverra purus, non fermentum metus
+			<div id="readmore">Lire la suite...</div>
+		</div><div id = "news">
+			<div id="image"><img src="img/pole.jpg"/></div>
+			<div id="title">Actualité 5</div> 
+			<div id="subtitle">31 décembre 2016</div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum nisl diam, in accumsan lacus viverra a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquam lorem orci, quis placerat orci tempor quis. Aenean id gravida libero. Donec vestibulum, risus sit amet malesuada pulvinar, tellus sem viverra purus, non fermentum metus
+			<div id="readmore">Lire la suite...</div>
+		</div>
+		<div id = "news">
+			<div id="image"><img src="img/pole.jpg"/></div>
+			<div id="title">Actualité 6</div> 
+			<div id="subtitle">31 décembre 2016</div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum nisl diam, in accumsan lacus viverra a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquam lorem orci, quis placerat orci tempor quis. Aenean id gravida libero. Donec vestibulum, risus sit amet malesuada pulvinar, tellus sem viverra purus, non fermentum metus
+			<div id="readmore">Lire la suite...</div>
+		</div>
+	</div>
+	 
+</body>
+</html>

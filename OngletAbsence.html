@@ -1,0 +1,65 @@
+<?php 
+session_start();
+?>
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Actualité</title>
+	<link rel="stylesheet" href="style.css">
+	 <style type="text/css">
+  <!--
+    a {
+      text-decoration: none;
+    }
+  //-->
+  </style
+</head>
+
+<body>
+	<div id="header">
+		<a href="LeoNews.html"><div id="titre">Léo News</div></a>
+		<div id="menu">
+		    <a href="http://www.devinci.fr/"><div id="onglet">Le Pôle</div></a>     
+			<a href="OngletAdmin.html"><div id="onglet">Administration</div></a>
+			<a href="OngletEvenement.html"><div id="onglet">Evènements</div></a>
+			<a href="http://labs.esilv.fr/leodata/"><div id="onglet">Annales</div></a>
+			<a href="OngletSport.html"><div id="onglet">Sport</div></a>
+			<a href="OngletActu.html"><div id="onglet">Actualités</div></a>
+			<a href="OngletAssociation.html"><div id="onglet">Associations</div></a>
+			<a href="OngletForum.html"><div id="onglet">Forum</div></a>
+		</div>
+		
+		<fore>
+		<a href="index.php"><div id="onglet">Déconnexion</div></a>
+		</fore>
+	</div>
+	
+	<?php 
+	$mysqli = new PDO('mysql:host=localhost;dbname=LeoNews;charset=utf8','root', ''); 
+	if(mysqli_connect_errno())
+	{ 
+		printf("Erreur de connexion");
+		mysqli_connect_error();
+	} 
+?> 
+	<div id= "bigNews" >
+		<div id="lastNews">
+		<div id = "news">
+<?php 
+	$affiche= $mysqli->query('SELECT*FROM Absence');
+	while ($donnees = $affiche->fetch())
+{
+?>
+    <p>
+    <strong>Date absence</strong> : <?php echo $donnees['DateA']; ?>
+    Le professeur est : <?php echo $donnees['Professeur']; ?>, et vous dit : <?php echo $donnees['Message']; ?> 
+<?php
+}
+$reponse->closeCursor(); // Termine le traitement de la requête
+?>
+		</div>
+		</div>
+		</div>
+	</body>
+	</html>

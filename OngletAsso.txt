@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Associations</title>
+	<link rel="stylesheet" href="style.css">
+	 <style type="text/css">
+  <!--
+    a {
+      text-decoration: none;
+    }
+  //-->
+  </style
+</head>
+
+<body>
+	<div id="header">
+		<div id="titre">Léo News </div>
+		<div id="menu">
+		    <div id="onglet">Le Pôle</div>
+			<div id="onglet">Administration </div>
+			<a href="OngletType.html"><div id="onglet">Evènements</div></a>
+			<div id="onglet">Entreprises</div>
+			<div id="onglet">Informations internationales</div>
+			<div id="onglet">Sport</div>
+			<div id="onglet">Actualités</div>
+			<a href="OngletAssociation.html"><div id="onglet">Associations</div></a>
+			<div id="onglet">Forum</div>
+		</div>
+	</div>
+	
+	<div id= "entete" >
+	
+		<div id="titreonglet">Associations</div>
+		
+	</div>
+	<div id="allCircle">
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+		<div id="circle" style="background-image: url(img/AMMA.jpg);"><div id="infos">AMMA</div></div>
+	</div>
+	
+	
+</body>
+</html>
